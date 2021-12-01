@@ -1,16 +1,13 @@
-
-
 import { Outlet } from 'react-router';
-import NavBar from  './components/NavBar';
-
+import NavBar from './components/NavBar';
 
 const App: React.FC = () => {
-    return (
+  return (
     <main>
-      <NavBar/>
-      <Outlet/>
+      <NavBar />
+      <Outlet />
     </main>
-    );
-  };
+  );
+};
 
-  export default App;
+export default App;
